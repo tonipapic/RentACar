@@ -330,7 +330,6 @@
             // 
             // btnDirectory
             // 
-            this.btnDirectory.Enabled = false;
             this.btnDirectory.Location = new System.Drawing.Point(67, 33);
             this.btnDirectory.Margin = new System.Windows.Forms.Padding(2);
             this.btnDirectory.Name = "btnDirectory";
@@ -338,6 +337,7 @@
             this.btnDirectory.TabIndex = 7;
             this.btnDirectory.Text = "Direktorij za spremanje";
             this.btnDirectory.UseVisualStyleBackColor = true;
+            this.btnDirectory.Click += new System.EventHandler(this.btnDirectory_Click);
             // 
             // RentACarForma
             // 

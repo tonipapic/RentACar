@@ -13,6 +13,8 @@ namespace STATE_RentACar
     public partial class RentACarForma : Form
     {
         private Vozilo _vozilo;
+        private FileManager _fileManager;
+        private string textForFile;
         string status;
         public RentACarForma()
         {
@@ -33,6 +35,7 @@ namespace STATE_RentACar
             txtDatumRezervacije.Text = _vozilo.DatumRezervacije.ToString();
             btnUciniRaspolozivim.Enabled = false;
             txtStatusVozila.Text=Status.Rezerviran.ToString();
+            
 
         }
 
@@ -58,10 +61,11 @@ namespace STATE_RentACar
 
         private void btnUciniRaspolozivim_Click(object sender, EventArgs e)
         {
-        
+            _fileManager.SaveToFile(_vozilo);
             _vozilo.UciniRaspolozivim(btnPregledaj, btnUciniRaspolozivim, btnDeaktivirajVozilo, btnRezerviraj);
             txtStatusVozila.Text = Status.Raspoloziv.ToString();
             txtPregledNapravio.Text = _vozilo.PregledNapravio;
+            
 
 
         }
@@ -94,7 +98,17 @@ namespace STATE_RentACar
                 _vozilo=new Vozilo(txtRegistracija.Text,txtOpisModela.Text);
             }
         }
-      
+
+        private void btnDirectory_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog = new OpenFileDialog();
+            openFileDialog.Filter = "TextFiles(*.txt)|*.txt";
+            if(openFileDialog.ShowDialog()==DialogResult.OK)
+            {
+                 _fileManager=new FileManager(openFileDialog.FileName);
+            }
+            
+        }
     }
 
     public enum Status

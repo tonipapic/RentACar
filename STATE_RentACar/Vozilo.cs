@@ -55,6 +55,7 @@ namespace STATE_RentACar
             DisableAndEnable(toDisable, toEnable);
             DisableAndEnable(toDisable2, toEnable2);
             PregledNapravio = null;
+
         }
 
 
