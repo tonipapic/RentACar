@@ -51,11 +51,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtRegistracija = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.btnDirectory = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -313,11 +316,35 @@
             this.label1.TabIndex = 15;
             this.label1.Text = "Registracija:";
             // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.btnDirectory);
+            this.groupBox6.Location = new System.Drawing.Point(14, 346);
+            this.groupBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Padding = new System.Windows.Forms.Padding(2);
+            this.groupBox6.Size = new System.Drawing.Size(490, 100);
+            this.groupBox6.TabIndex = 13;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Postavke programa";
+            // 
+            // btnDirectory
+            // 
+            this.btnDirectory.Enabled = false;
+            this.btnDirectory.Location = new System.Drawing.Point(67, 33);
+            this.btnDirectory.Margin = new System.Windows.Forms.Padding(2);
+            this.btnDirectory.Name = "btnDirectory";
+            this.btnDirectory.Size = new System.Drawing.Size(105, 40);
+            this.btnDirectory.TabIndex = 7;
+            this.btnDirectory.Text = "Direktorij za spremanje";
+            this.btnDirectory.UseVisualStyleBackColor = true;
+            // 
             // RentACarForma
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(514, 339);
+            this.ClientSize = new System.Drawing.Size(514, 483);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox3);
@@ -335,6 +362,7 @@
             this.groupBox5.ResumeLayout(false);
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -363,6 +391,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtRegistracija;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Button btnDirectory;
     }
 }
 
