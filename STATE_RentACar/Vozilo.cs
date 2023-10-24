@@ -49,11 +49,11 @@ namespace STATE_RentACar
             DisableAndEnable(toDisable, toEnable);
         }
 
-        public void UciniRaspolozivim(Button toDisable,Button toEnable,Button toEnable2)
+        public void UciniRaspolozivim(Button toDisable, Button toDisable2, Button toEnable,Button toEnable2)
         {
 
             DisableAndEnable(toDisable, toEnable);
-            DisableAndEnable(toDisable, toEnable2);
+            DisableAndEnable(toDisable2, toEnable2);
             PregledNapravio = null;
         }
 

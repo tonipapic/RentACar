@@ -21,14 +21,14 @@ namespace STATE_RentACar
 
         private void RentACarForma_Load(object sender, EventArgs e)
         {
-            _vozilo = new Vozilo("VŽ-100-NO", "Ford focus, 1.6 tdi");
-
-            txtRegistracija.Text = _vozilo.Registracija;
-            txtOpisModela.Text = _vozilo.Model;
+           
         }
 
         private void btnRezerviraj_Click(object sender, EventArgs e)
         {
+            IsRequiredEmpty();
+            
+
             _vozilo.RezervirajVozilo(btnDeaktivirajVozilo, btnPredaj);
             txtDatumRezervacije.Text = _vozilo.DatumRezervacije.ToString();
             btnUciniRaspolozivim.Enabled = false;
@@ -59,10 +59,9 @@ namespace STATE_RentACar
         private void btnUciniRaspolozivim_Click(object sender, EventArgs e)
         {
         
-            _vozilo.UciniRaspolozivim(btnPregledaj, btnDeaktivirajVozilo, btnRezerviraj);
-            btnUciniRaspolozivim.Enabled = false;
+            _vozilo.UciniRaspolozivim(btnPregledaj, btnUciniRaspolozivim, btnDeaktivirajVozilo, btnRezerviraj);
             txtStatusVozila.Text = Status.Raspoloziv.ToString();
-            txtPregledNapravio.Text = null;
+            txtPregledNapravio.Text = _vozilo.PregledNapravio;
 
 
         }
@@ -77,11 +76,24 @@ namespace STATE_RentACar
 
         private void btnDeaktivirajVozilo_Click(object sender, EventArgs e)
         {
+            IsRequiredEmpty();            
             _vozilo.DeaktivirajVozilo(btnRezerviraj, btnAktivirajVozilo);
             txtStatusVozila.Text = Status.UKvaru.ToString();
 
         }
-       
+        
+        private void IsRequiredEmpty()
+        {
+            if (string.IsNullOrEmpty(txtRegistracija.Text) || string.IsNullOrEmpty(txtOpisModela.Text))
+            {
+                MessageBox.Show("Ispunite registraciju i opis");
+                return;
+            }
+            else
+            {
+                _vozilo=new Vozilo(txtRegistracija.Text,txtOpisModela.Text);
+            }
+        }
       
     }
 

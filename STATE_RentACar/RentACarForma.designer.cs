@@ -64,9 +64,9 @@
             this.groupBox1.Controls.Add(this.txtDatumRezervacije);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Location = new System.Drawing.Point(14, 128);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox1.Size = new System.Drawing.Size(157, 99);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
@@ -75,7 +75,7 @@
             // btnRezerviraj
             // 
             this.btnRezerviraj.Location = new System.Drawing.Point(46, 59);
-            this.btnRezerviraj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnRezerviraj.Margin = new System.Windows.Forms.Padding(2);
             this.btnRezerviraj.Name = "btnRezerviraj";
             this.btnRezerviraj.Size = new System.Drawing.Size(96, 20);
             this.btnRezerviraj.TabIndex = 7;
@@ -87,7 +87,7 @@
             // 
             this.txtDatumRezervacije.Enabled = false;
             this.txtDatumRezervacije.Location = new System.Drawing.Point(14, 38);
-            this.txtDatumRezervacije.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDatumRezervacije.Margin = new System.Windows.Forms.Padding(2);
             this.txtDatumRezervacije.Name = "txtDatumRezervacije";
             this.txtDatumRezervacije.Size = new System.Drawing.Size(130, 20);
             this.txtDatumRezervacije.TabIndex = 6;
@@ -108,9 +108,9 @@
             this.groupBox2.Controls.Add(this.txtDatumPredavanja);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Location = new System.Drawing.Point(176, 128);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox2.Size = new System.Drawing.Size(158, 99);
             this.groupBox2.TabIndex = 9;
             this.groupBox2.TabStop = false;
@@ -120,7 +120,7 @@
             // 
             this.btnPredaj.Enabled = false;
             this.btnPredaj.Location = new System.Drawing.Point(38, 59);
-            this.btnPredaj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPredaj.Margin = new System.Windows.Forms.Padding(2);
             this.btnPredaj.Name = "btnPredaj";
             this.btnPredaj.Size = new System.Drawing.Size(105, 20);
             this.btnPredaj.TabIndex = 7;
@@ -132,7 +132,7 @@
             // 
             this.txtDatumPredavanja.Enabled = false;
             this.txtDatumPredavanja.Location = new System.Drawing.Point(14, 38);
-            this.txtDatumPredavanja.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtDatumPredavanja.Margin = new System.Windows.Forms.Padding(2);
             this.txtDatumPredavanja.Name = "txtDatumPredavanja";
             this.txtDatumPredavanja.Size = new System.Drawing.Size(130, 20);
             this.txtDatumPredavanja.TabIndex = 6;
@@ -153,9 +153,9 @@
             this.groupBox3.Controls.Add(this.btnPregledaj);
             this.groupBox3.Controls.Add(this.txtPregledNapravio);
             this.groupBox3.Location = new System.Drawing.Point(338, 128);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox3.Size = new System.Drawing.Size(166, 99);
             this.groupBox3.TabIndex = 10;
             this.groupBox3.TabStop = false;
@@ -175,7 +175,7 @@
             // 
             this.btnPregledaj.Enabled = false;
             this.btnPregledaj.Location = new System.Drawing.Point(44, 59);
-            this.btnPregledaj.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnPregledaj.Margin = new System.Windows.Forms.Padding(2);
             this.btnPregledaj.Name = "btnPregledaj";
             this.btnPregledaj.Size = new System.Drawing.Size(105, 20);
             this.btnPregledaj.TabIndex = 7;
@@ -186,7 +186,7 @@
             // txtPregledNapravio
             // 
             this.txtPregledNapravio.Location = new System.Drawing.Point(20, 38);
-            this.txtPregledNapravio.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtPregledNapravio.Margin = new System.Windows.Forms.Padding(2);
             this.txtPregledNapravio.Name = "txtPregledNapravio";
             this.txtPregledNapravio.Size = new System.Drawing.Size(130, 20);
             this.txtPregledNapravio.TabIndex = 6;
@@ -195,7 +195,7 @@
             // 
             this.btnUciniRaspolozivim.Enabled = false;
             this.btnUciniRaspolozivim.Location = new System.Drawing.Point(67, 32);
-            this.btnUciniRaspolozivim.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnUciniRaspolozivim.Margin = new System.Windows.Forms.Padding(2);
             this.btnUciniRaspolozivim.Name = "btnUciniRaspolozivim";
             this.btnUciniRaspolozivim.Size = new System.Drawing.Size(105, 40);
             this.btnUciniRaspolozivim.TabIndex = 7;
@@ -209,9 +209,9 @@
             this.groupBox5.Controls.Add(this.btnAktivirajVozilo);
             this.groupBox5.Controls.Add(this.btnDeaktivirajVozilo);
             this.groupBox5.Location = new System.Drawing.Point(14, 231);
-            this.groupBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox5.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox5.Size = new System.Drawing.Size(490, 101);
             this.groupBox5.TabIndex = 12;
             this.groupBox5.TabStop = false;
@@ -221,7 +221,7 @@
             // 
             this.btnAktivirajVozilo.Enabled = false;
             this.btnAktivirajVozilo.Location = new System.Drawing.Point(176, 32);
-            this.btnAktivirajVozilo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnAktivirajVozilo.Margin = new System.Windows.Forms.Padding(2);
             this.btnAktivirajVozilo.Name = "btnAktivirajVozilo";
             this.btnAktivirajVozilo.Size = new System.Drawing.Size(105, 41);
             this.btnAktivirajVozilo.TabIndex = 8;
@@ -232,7 +232,7 @@
             // btnDeaktivirajVozilo
             // 
             this.btnDeaktivirajVozilo.Location = new System.Drawing.Point(286, 32);
-            this.btnDeaktivirajVozilo.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDeaktivirajVozilo.Margin = new System.Windows.Forms.Padding(2);
             this.btnDeaktivirajVozilo.Name = "btnDeaktivirajVozilo";
             this.btnDeaktivirajVozilo.Size = new System.Drawing.Size(105, 41);
             this.btnDeaktivirajVozilo.TabIndex = 7;
@@ -249,9 +249,9 @@
             this.groupBox4.Controls.Add(this.txtRegistracija);
             this.groupBox4.Controls.Add(this.label1);
             this.groupBox4.Location = new System.Drawing.Point(14, 10);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(2);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(2);
             this.groupBox4.Size = new System.Drawing.Size(490, 115);
             this.groupBox4.TabIndex = 15;
             this.groupBox4.TabStop = false;
@@ -261,7 +261,7 @@
             // 
             this.txtStatusVozila.Enabled = false;
             this.txtStatusVozila.Location = new System.Drawing.Point(292, 20);
-            this.txtStatusVozila.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtStatusVozila.Margin = new System.Windows.Forms.Padding(2);
             this.txtStatusVozila.Name = "txtStatusVozila";
             this.txtStatusVozila.Size = new System.Drawing.Size(93, 20);
             this.txtStatusVozila.TabIndex = 20;
@@ -278,9 +278,8 @@
             // 
             // txtOpisModela
             // 
-            this.txtOpisModela.Enabled = false;
             this.txtOpisModela.Location = new System.Drawing.Point(96, 51);
-            this.txtOpisModela.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtOpisModela.Margin = new System.Windows.Forms.Padding(2);
             this.txtOpisModela.Multiline = true;
             this.txtOpisModela.Name = "txtOpisModela";
             this.txtOpisModela.Size = new System.Drawing.Size(378, 46);
@@ -298,9 +297,8 @@
             // 
             // txtRegistracija
             // 
-            this.txtRegistracija.Enabled = false;
             this.txtRegistracija.Location = new System.Drawing.Point(96, 20);
-            this.txtRegistracija.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txtRegistracija.Margin = new System.Windows.Forms.Padding(2);
             this.txtRegistracija.Name = "txtRegistracija";
             this.txtRegistracija.Size = new System.Drawing.Size(93, 20);
             this.txtRegistracija.TabIndex = 16;
